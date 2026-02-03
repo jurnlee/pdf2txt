@@ -1,0 +1,16 @@
+# PDF 文本提取工具依赖
+# 安装所有依赖：pip install -r requirements.txt
+
+# 主要提取库
+pdfplumber>=0.10.0    # 推荐，支持中文和布局分析
+pypdf>=3.0.0          # 纯Python实现，轻量级
+pdfminer.six>=20221105 # 精确的布局分析
+
+# 可选（用于OCR处理扫描件）
+# pdf2image>=1.16.0    # 将PDF转换为图像
+# pillow>=9.0.0        # 图像处理
+# pytesseract>=0.3.10  # OCR引擎（需要安装Tesseract）
+
+# 开发依赖（可选）
+# pytest>=7.0.0        # 测试框架
+# black>=22.0.0        # 代码格式化
