@@ -47,7 +47,7 @@ if not exist "%pdf_file%" (
 REM 提取文本
 echo.
 echo 开始提取: %pdf_file%
-python pdf_extractor.py "%pdf_file%" --verbose
+python scripts\pdf_extractor.py "%pdf_file%" --verbose
 
 echo.
 echo 按任意键退出...
